@@ -6,3 +6,5 @@ Run Training Script: Execute the training script to start training the PPO agent
 
 $ python Train.py
 
+#Note
+While we use the snake env in this testing, the framework is designed to be compatible with various custome environment created with MultiDiscrete OpenAi Gym.
