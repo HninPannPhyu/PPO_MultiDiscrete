@@ -1,8 +1,8 @@
 import gym
 import numpy as np
-from MultiDiscrete_PPO_Pytorch_Agent import Agent
+from PPO_Agent_Multidiscrete import Agent
 from utils import plot_learning_curve
-from MultiDiscrete_snake import SnekEnv
+from MultiDiscrete_Env_Snake import SnekEnv
 
 if __name__ == '__main__':
     env = SnekEnv()
